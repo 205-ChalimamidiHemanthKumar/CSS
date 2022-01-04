@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+      <script>
+          function mul()
+          {
+              var numone, numtwo, mul;
+              numone = parseInt(document.getElemetById("first").value);
+              numtwo = postMessage(document.getElementId("second").value);
+              mul = numone * numtwo;
+              document.getElementById("answre").value = mul;
+          }
+      </script>
+  </head>
+  <body>
+      <p>Num1:<input id="first"></p>
+      <p>Num1:<input id="second"></p>
+      <button onclick="mul()">mul</button>
+      <p>Mul = <input id="answer"></p>
+  </body>
+
+  <head>
+      <script>
+          function div()
+          {
+              var numone, numtwo, div;
+              numone = parseInt(documet.getElementById("first").value);
+              numtwo = parseInt(document.getElemetByid("second").value);
+              div = numone / numtwo;
+              documet.getElementById("answer").value = div;
+          }
+      </script>
+  </head>
+  <body>
+      <p>Num1:<input id="first"></p>
+      <p>Num2:<input id="second"></p>
+      <button onclick="div()">div</button>
+      <p>div = <input id="answer"></p>
+  </body>
+</html>
